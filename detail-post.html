@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Post Sekolah Ku </title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style type="text/css" data-fbcssmodules="css:fb.css.basecss:fb.css.dialog css:fb.css.iframewidget">
+        .fb_hidden {
+            position: absolute;
+            top: -10000px;
+            z-index: 10001
+        }
+        
+        .fb_reposition {
+            overflow: hidden;
+            position: relative
+        }
+        
+        .fb_invisible {
+            display: none
+        }
+        
+        .fb_reset {
+            background: none;
+            border: 0;
+            border-spacing: 0;
+            color: #000;
+            cursor: auto;
+            direction: ltr;
+            font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+            font-size: 11px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            letter-spacing: normal;
+            line-height: 1;
+            margin: 0;
+            overflow: visible;
+            padding: 0;
+            text-align: left;
+            text-decoration: none;
+            text-indent: 0;
+            text-shadow: none;
+            text-transform: none;
+            visibility: visible;
+            white-space: normal;
+            word-spacing: normal
+        }
+        
+        .fb_reset>div {
+            overflow: hidden
+        }
+        
+        @keyframes fb_transform {
+            from {
+                opacity: 0;
+                transform: scale(.95)
+            }
+            to {
+                opacity: 1;
+                transform: scale(1)
+            }
+        }
+        
+        .fb_animate {
+            animation: fb_transform .3s forwards
+        }
+        
+        .fb_dialog {
+            background: rgba(82, 82, 82, .7);
+            position: absolute;
+            top: -10000px;
+            z-index: 10001
+        }
+        
+        .fb_dialog_advanced {
+            border-radius: 8px;
+            padding: 10px
+        }
+        
+        .fb_dialog_content {
+            background: #fff;
+            color: #373737
+        }
+        
+        .fb_dialog_close_icon {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;
+            cursor: pointer;
+            display: block;
+            height: 15px;
+            position: absolute;
+            right: 18px;
+            top: 17px;
+            width: 15px
+        }
+        
+        .fb_dialog_mobile .fb_dialog_close_icon {
+            left: 5px;
+            right: auto;
+            top: 5px
+        }
+        
+        .fb_dialog_padding {
+            background-color: transparent;
+            position: absolute;
+            width: 1px;
+            z-index: -1
+        }
+        
+        .fb_dialog_close_icon:hover {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent
+        }
+        
+        .fb_dialog_close_icon:active {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent
+        }
+        
+        .fb_dialog_iframe {
+            line-height: 0
+        }
+        
+        .fb_dialog_content .dialog_title {
+            background: #6d84b4;
+            border: 1px solid #365899;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0
+        }
+        
+        .fb_dialog_content .dialog_title>span {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;
+            float: left;
+            padding: 5px 0 7px 26px
+        }
+        
+        body.fb_hidden {
+            height: 100%;
+            left: 0;
+            margin: 0;
+            overflow: visible;
+            position: absolute;
+            top: -10000px;
+            transform: none;
+            width: 100%
+        }
+        
+        .fb_dialog.fb_dialog_mobile.loading {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;
+            min-height: 100%;
+            min-width: 100%;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            z-index: 10001
+        }
+        
+        .fb_dialog.fb_dialog_mobile.loading.centered {
+            background: none;
+            height: auto;
+            min-height: initial;
+            min-width: initial;
+            width: auto
+        }
+        
+        .fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner {
+            width: 100%
+        }
+        
+        .fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content {
+            background: none
+        }
+        
+        .loading.centered #fb_dialog_loader_close {
+            clear: both;
+            color: #fff;
+            display: block;
+            font-size: 18px;
+            padding-top: 20px
+        }
+        
+        #fb-root #fb_dialog_ipad_overlay {
+            background: rgba(0, 0, 0, .4);
+            bottom: 0;
+            left: 0;
+            min-height: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 100%;
+            z-index: 10000
+        }
+        
+        #fb-root #fb_dialog_ipad_overlay.hidden {
+            display: none
+        }
+        
+        .fb_dialog.fb_dialog_mobile.loading iframe {
+            visibility: hidden
+        }
+        
+        .fb_dialog_mobile .fb_dialog_iframe {
+            position: sticky;
+            top: 0
+        }
+        
+        .fb_dialog_content .dialog_header {
+            background: linear-gradient(from(#738aba), to(#2c4987));
+            border-bottom: 1px solid;
+            border-color: #043b87;
+            box-shadow: white 0 1px 1px -1px inset;
+            color: #fff;
+            font: bold 14px Helvetica, sans-serif;
+            text-overflow: ellipsis;
+            text-shadow: rgba(0, 30, 84, .296875) 0 -1px 0;
+            vertical-align: middle;
+            white-space: nowrap
+        }
+        
+        .fb_dialog_content .dialog_header table {
+            height: 43px;
+            width: 100%
+        }
+        
+        .fb_dialog_content .dialog_header td.header_left {
+            font-size: 12px;
+            padding-left: 5px;
+            vertical-align: middle;
+            width: 60px
+        }
+        
+        .fb_dialog_content .dialog_header td.header_right {
+            font-size: 12px;
+            padding-right: 5px;
+            vertical-align: middle;
+            width: 60px
+        }
+        
+        .fb_dialog_content .touchable_button {
+            background: linear-gradient(from(#4267B2), to(#2a4887));
+            background-clip: padding-box;
+            border: 1px solid #29487d;
+            border-radius: 3px;
+            display: inline-block;
+            line-height: 18px;
+            margin-top: 3px;
+            max-width: 85px;
+            padding: 4px 12px;
+            position: relative
+        }
+        
+        .fb_dialog_content .dialog_header .touchable_button input {
+            background: none;
+            border: none;
+            color: #fff;
+            font: bold 12px Helvetica, sans-serif;
+            margin: 2px -12px;
+            padding: 2px 6px 3px 6px;
+            text-shadow: rgba(0, 30, 84, .296875) 0 -1px 0
+        }
+        
+        .fb_dialog_content .dialog_header .header_center {
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 18px;
+            text-align: center;
+            vertical-align: middle
+        }
+        
+        .fb_dialog_content .dialog_content {
+            background: url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;
+            border: 1px solid #4a4a4a;
+            border-bottom: 0;
+            border-top: 0;
+            height: 150px
+        }
+        
+        .fb_dialog_content .dialog_footer {
+            background: #f5f6f7;
+            border: 1px solid #4a4a4a;
+            border-top-color: #ccc;
+            height: 40px
+        }
+        
+        #fb_dialog_loader_close {
+            float: left
+        }
+        
+        .fb_dialog.fb_dialog_mobile .fb_dialog_close_icon {
+            visibility: hidden
+        }
+        
+        #fb_dialog_loader_spinner {
+            animation: rotateSpinner 1.2s linear infinite;
+            background-color: transparent;
+            background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            height: 24px;
+            width: 24px
+        }
+        
+        @keyframes rotateSpinner {
+            0% {
+                transform: rotate(0deg)
+            }
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+        
+        .fb_iframe_widget {
+            display: inline-block;
+            position: relative
+        }
+        
+        .fb_iframe_widget span {
+            display: inline-block;
+            position: relative;
+            text-align: justify
+        }
+        
+        .fb_iframe_widget iframe {
+            position: absolute
+        }
+        
+        .fb_iframe_widget_fluid_desktop,
+        .fb_iframe_widget_fluid_desktop span,
+        .fb_iframe_widget_fluid_desktop iframe {
+            max-width: 100%
+        }
+        
+        .fb_iframe_widget_fluid_desktop iframe {
+            min-width: 220px;
+            position: relative
+        }
+        
+        .fb_iframe_widget_lift {
+            z-index: 1
+        }
+        
+        .fb_iframe_widget_fluid {
+            display: inline
+        }
+        
+        .fb_iframe_widget_fluid span {
+            width: 100%
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Buka Bawah -->
+    <section>
+        <div id="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-md-8 col-sm-12">
+                        <ul class="top-nav kiri">
+                            <li><a href="tel:087820526768"><i class="fas fa-phone"></i> 0878-2052-06768</a></li>
+                            <li><a href="mailto:rusakb683@gmail.com.com"><i class="fas fa-envelope"></i>
+                                yoga@web.com</a></li>
+                            <li class="headline"><a href="/index.html"><i class="fas fa-bullhorn"></i> Pendaftaran TA 2021/2022
+                                telah dibuka!
+                        </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12">
+                        <ul class="top-nav kanan">
+                            <li><a href="https://www.facebook.com/bos.kancil.129"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com/jawa_sans_/"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCOCxK0wtVvCDS-3wLK_3LHA?sub_confirmation=1"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://twitter.com/jawasans/"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- .row -->
+            </div>
+            <!-- .container -->
+        </div>
+    </section>
+    <!--- Tutup Atas -->
+    <!-- Buka Header-->
+    <header>
+        <div id="head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="brand">
+                            <a href="index.html">
+                                <img src="/assets/img/logo-smk-pj.png" alt="Logo" title="Logo">
+                            </a>
+                            <div class="brand-title">
+                                <a href="index.html">
+                                    <h1> SMK PEMBANGUNAN JAYA-YAKAPI</h1>
+                                    <h4>SEKOLAH PENCETAK GENERASI TELADAN DAN BERPESTASI</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 searchbox">
+                        <form method="get">
+                            <div class="input-group">
+                                <input class="form-control" type="text" name="cari" placeholder="Cari sesuatu..." aria-label="Tombol Cari " aria-describedby="tombol-cari">
+                                <div class="input-group-append">
+                                    <button class="btn btn-utama" id="tombol-cari">Cari</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- menu -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <!-- <a class="navbar-brand">Brand</a> -->
+                <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span> Menu
+            </button>
+                <div id="my-nav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/index.html">Beranda</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Profil
+                        </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Sejarah</a>
+                                <a class="dropdown-item" href="#">Visi dan Misi</a>
+                                <a class="dropdown-item" href="#">Peta Sekolah</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sarana &amp; Prasarana
+                        </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Sarana Infrastuktur</a>
+                                <a class="dropdown-item" href="#">Sarana Pembelajaran</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ekstrakulikuler</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Belajar
+                        </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="https://youtu.be/xReypeVT_Ps">Mikrotik</a>
+                                <a class="dropdown-item" href="https://youtu.be/jRaBwY63pP0">Cisco Packet Tracer</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/channel/UCkXmLjEr95LVtGuIm3l2dPg"> Programming</a>
+                                <a class="dropdown-item" href="https://www.computerznow.my.id/2020/09/belajar-cyber-scurity-bagi-pemula.html">CyberSecurity</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Berita
+                        </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="list-post.html">Berita Sekolah</a>
+                                <a class="dropdown-item" href="list-post.html">Pengumuman</a>
+                                <a class="dropdown-item" href="list-post.html">Agenda</a>
+                                <a class="dropdown-item" href="list-post.html">Kalender Akademik</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Galeri
+                        </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Galeri Foto</a>
+                                <a class="dropdown-item" href="#">Video &amp; Dokumentasi</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/contact.html">Kontak</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Tutup Header-->
+    <section>
+        <div class="breadcrumb-box clearfix">
+            <div class="container">
+                <!-- <div class="breadcrumb-title">
+                    <h3>Berita</h3>
+                    <p>Berita Terbaru dari Kami</p>
+                </div> -->
+                <nav aria-label="Page breadcrumb">
+                    <ol class="breadcrumb brd-detail">
+                        <li class="breadcrumb-item active" aria-current="page">Beranda</li>
+                        <li class="breadcrumb-item"><a href="berita.html">Berita</a></li>
+                        <li class="breadcrumb-item brd-post-title">DISCONNECT 21</li>
+                    </ol>
+                </nav>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="konten">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-7">
+                    <section id="post">
+                        <div class="container">
+                            <article>
+                                <div class="section-thumbnail thumb-post">
+                                    <img class="img-fluid" src="assets/img/nub/dc.jpeg" alt="Gambar Apa">
+                                </div>
+                                <div class="section-body">
+                                    <h1 class="section-post-title">DISCONNECT 2021
+                                    </h1>
+                                    <div class="section-post-meta">
+                                        <span><i class="fas fa-user"></i> Oleh: <a href="" class="author">Yoga Asnawi</a></span>
+                                        <span><i class="fas fa-clock"></i> 25 Oktober 2020</span>
+                                        <span><i class="fas fa-eye"></i> 500 kali</span>
+                                        <span><i class="fas fa-comments"></i> <a href="#komentar">100 komentar</a></span>
+                                    </div>
+                                    <div class="section-post-content">
+                                        <p>In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus. Nulla eu mi magna. Etiam suscipit commodo gravida. Cras suscipit, quam vitae adipiscing faucibus, risus nibh laoreet odio, a porttitor
+                                            metus eros ut enim. Morbi augue velit, tempus mattis dignissim nec, porta sed risus. Donec eget magna eu lorem tristique pellentesque eget eu dui. Fusce lacinia tempor malesuada. Ut lacus sapien, placerat a
+                                            ornare nec, elementum sit amet felis. Maecenas pretium lorem hendrerit eros sagittis fermentum.</p>
+
+                                        <p></p>
+                                        <blockquote>Nam nisl lacus, dignissim ac tristique ut, scelerisque eu massa. Vestibulum ligula nunc, rutrum in malesuada vitae, tempus sed augue. Curabitur quis lectus quis augue dapibus facilisis. Vivamus tincidunt orci est,
+                                            in vehicula nisi eleifend ut. Vestibulum sagittis varius orci vitae.</blockquote>
+                                        <p></p>
+
+                                        <p>In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus. Nulla eu mi magna. Etiam suscipit commodo gravida. Cras suscipit, quam vitae adipiscing faucibus, risus nibh laoreet odio, a porttitor
+                                            metus eros ut enim. Morbi augue velit, tempus mattis dignissim nec, porta sed risus. Donec eget magna eu lorem tristique pellentesque eget eu dui. Fusce lacinia tempor malesuada. Ut lacus sapien, placerat a
+                                            ornare nec, elementum sit amet felis. Maecenas pretium lorem hendrerit eros sagittis fermentum.</p>
+
+                                        <p>Phasellus enim magna, varius et commodo ut, ultricies vitae velit. Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo. In libero urna, venenatis sit amet ornare non, suscipit nec risus. Sed consequat
+                                            justo non mauris pretium at tempor justo sodales. Quisque tincidunt laoreet malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer vitae ante enim. Fusce sed
+                                            elit est. Suspendisse sit amet mauris in quam pretium faucibus et aliquam odio.</p>
+
+                                        <p>In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus. Nulla eu mi magna. Etiam suscipit commodo gravida. Cras suscipit, quam vitae adipiscing faucibus, risus nibh laoreet odio, a porttitor
+                                            metus eros ut enim.</p>
+                                    </div>
+                                    <!-- .section-post-content -->
+                                    <div class="section-post-share">
+                                        <ul class="list-unstyled">
+                                            <li>Bagikan:</li>
+                                            <li><a href="https://www.facebook.com/sharer/sharer.php?u=demo.woapik.store%2Ftemplate%2Fwebsekolah%2Fdetail-post.html"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="https://twitter.com/intent/tweet?url=demo.woapik.store%2Ftemplate%2Fwebsekolah%2Fdetail-post.html&amp;text=Coba%20lihat"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="&quot;https://api.whatsapp.com/send?text=&quot; + data:blog.url.canonical"><i class="fab fa-whatsapp"></i></a></li>
+                                            <!-- <li><a href=""><i class="fas fa-ellipsis"></i></a></li> -->
+                                        </ul>
+                                    </div>
+                                    <!-- .section-post-share -->
+                                    <div id="komentar">
+                                        <div class="fb-comments fb_iframe_widget fb_iframe_widget_fluid_desktop fb_iframe_widget_fluid" data-href="http://127.0.0.1:5500/detail-post.html" data-width="100%" data-numposts="5" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=326111774167524&amp;container_width=360&amp;height=100&amp;href=http%3A%2F%2F127.0.0.1%3A5500%2Fdetail-post.html&amp;locale=id_ID&amp;mobile=true&amp;numposts=5&amp;sdk=joey&amp;version=v5.0&amp;width="
+                                            style="width: 100%;"><span style="vertical-align: bottom; width: 100%; height: 713px;"><iframe name="f3ff56b2920989c" width="1000px" height="100px" data-testid="fb:comments Facebook Social Plugin" title="fb:comments Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v5.0/plugins/comments.php?app_id=326111774167524&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df3738c48065ad3c%26domain%3Ddemo.woapikstore.com%26origin%3Dhttps%253A%252F%252Fdemo.woapikstore.com%252Ff1c5df6589e375%26relation%3Dparent.parent&amp;container_width=360&amp;height=100&amp;href=http%3A%2F%2F127.0.0.1%3A5500%2Fdetail-post.html&amp;locale=id_ID&amp;mobile=true&amp;numposts=5&amp;sdk=joey&amp;version=v5.0&amp;width=" style="border: none; visibility: visible; width: 100%; height: 713px;" class=""></iframe></span></div>
+                                    </div>
+                                </div>
+                                <!-- .section-post-content -->
+                            </article>
+                        </div>
+                        <!-- .container -->
+                    </section>
+                    <!-- section #berita -->
+                </div>
+
+                <div class="col-lg-4 col-md-5">
+                    <div class="sidebar">
+                        <section class="berita-pop">
+                            <div class="container">
+                                <div class="section-title">
+                                    <h3>Berita Populer</h3>
+                                </div>
+                                <div class="section-body">
+                                    <div class="section-item-timeline">
+                                        <a href="" class="section-item-timeline-title">SMK Pembagunan Jaya Mewakili DKI Maju Ke Olimpiade Sains Tingkat Nasional</a>
+                                        <div class="section-item-timeline-meta">
+                                            <span><i class="far fa-clock"></i> 20 September 2019</span>
+                                            <a href=""><i class="fas fa-user"></i> Admin</a>
+                                        </div>
+                                    </div>
+                                    <!-- .section-item-timeline -->
+                                    <div class="section-item-timeline">
+                                        <a href="" class="section-item-timeline-title">SMK Pembagunan Jaya Mewakili DKI</a>
+                                        <div class="section-item-timeline-meta">
+                                            <span><i class="far fa-clock"></i> 20 September 2019</span>
+                                            <a href=""><i class="fas fa-user"></i> Admin</a>
+                                        </div>
+                                    </div>
+                                    <!-- .section-item-timeline -->
+                                    <div class="section-item-timeline">
+                                        <a href="" class="section-item-timeline-title">SMK Pembagunan Jaya Mewakili DKI</a>
+                                        <div class="section-item-timeline-meta">
+                                            <span><i class="far fa-clock"></i> 20 September 2019</span>
+                                            <a href=""><i class="fas fa-user"></i> Admin</a>
+                                        </div>
+                                    </div>
+                                    <!-- .section-item-timeline -->
+                                    <div class="section-item-timeline">
+                                        <a href="" class="section-item-timeline-title">SMK Pembagunan Jaya Mewakili DKI</a>
+                                        <div class="section-item-timeline-meta">
+                                            <span><i class="far fa-clock"></i> 20 September 2019</span>
+                                            <a href=""><i class="fas fa-user"></i> Admin</a>
+                                        </div>
+                                    </div>
+                                    <!-- .section-item-timeline -->
+                                    <div class="section-item-timeline">
+                                        <a href="" class="section-item-timeline-title">SMK Pembagunan Jaya Mewakili DKI</a>
+                                        <div class="section-item-timeline-meta">
+                                            <span><i class="far fa-clock"></i> 20 September 2019</span>
+                                            <a href=""><i class="fas fa-user"></i> Admin</a>
+                                        </div>
+                                    </div>
+                                    <!-- .section-item-timeline -->
+                                </div>
+                                <!-- .section-body -->
+                            </div>
+                            <!-- .container -->
+                        </section>
+
+                        <section class="pengumuman">
+                            <div class="container">
+                                <div class="section-title">
+                                    <h3>Pengumuman</h3>
+                                    <div id="pengumuman-nav" class=""><button type="button" role="presentation" class="owl-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button><button type="button" role="presentation" class="owl-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button></div>
+                                </div>
+                                <div class="owl-carousel owl-loaded owl-drag" id="pengumuman-slider">
+                                    <!-- .section-body -->
+                                    <!-- .section-body -->
+                                    <div class="owl-stage-outer">
+                                        <div class="owl-stage" style="transform: translate3d(-550px, 0px, 0px); transition: all 0s ease 0s; width: 1650px;">
+                                            <div class="owl-item cloned" style="width: 255px; margin-right: 20px;">
+                                                <div class="section-body flex">
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">JADWAL PENDALAMAN MATERI KELAS XII
+                                                SABTU
+                                                26 OKTOBER 2019</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">JADWAL PENDALAMAN MATERI KELAS XII
+                                                SABTU
+                                                26 OKTOBER 2019</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">JADWAL PENDALAMAN MATERI KELAS XII
+                                                SABTU
+                                                26 OKTOBER 2019</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">JADWAL PENDALAMAN MATERI KELAS
+                                                XII
+                                                SABTU
+                                                26 OKTOBER 2019</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">JADWAL PENDALAMAN MATERI KELAS
+                                                XII
+                                                SABTU
+                                                26 OKTOBER 2019</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                </div>
+                                            </div>
+                                            <div class="owl-item cloned" style="width: 255px; margin-right: 20px;">
+                                                <div class="section-body flex">
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">Pengumuman 6</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">Pengumuman 7</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">Pengumuman 8</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">Pengumuman 9</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">Pengumuman 10</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                </div>
+                                            </div>
+                                            <div class="owl-item active" style="width: 255px; margin-right: 20px;">
+                                                <div class="section-body flex">
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">JADWAL PENDALAMAN MATERI KELAS XII
+                                                SABTU
+                                                26 OKTOBER 2019</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">JADWAL PENDALAMAN MATERI KELAS XII
+                                                SABTU
+                                                26 OKTOBER 2019</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">JADWAL PENDALAMAN MATERI KELAS XII
+                                                SABTU
+                                                26 OKTOBER 2019</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">JADWAL PENDALAMAN MATERI KELAS
+                                                XII
+                                                SABTU
+                                                26 OKTOBER 2019</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">JADWAL PENDALAMAN MATERI KELAS
+                                                XII
+                                                SABTU
+                                                26 OKTOBER 2019</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                </div>
+                                            </div>
+                                            <div class="owl-item" style="width: 255px; margin-right: 20px;">
+                                                <div class="section-body flex">
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">Pengumuman 6</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">Pengumuman 7</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">Pengumuman 8</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">Pengumuman 9</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">Pengumuman 10</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                </div>
+                                            </div>
+                                            <div class="owl-item cloned" style="width: 255px; margin-right: 20px;">
+                                                <div class="section-body flex">
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">JADWAL PENDALAMAN MATERI KELAS XII
+                                                SABTU
+                                                26 OKTOBER 2019</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">JADWAL PENDALAMAN MATERI KELAS XII
+                                                SABTU
+                                                26 OKTOBER 2019</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">JADWAL PENDALAMAN MATERI KELAS XII
+                                                SABTU
+                                                26 OKTOBER 2019</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">JADWAL PENDALAMAN MATERI KELAS
+                                                XII
+                                                SABTU
+                                                26 OKTOBER 2019</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">JADWAL PENDALAMAN MATERI KELAS
+                                                XII
+                                                SABTU
+                                                26 OKTOBER 2019</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                </div>
+                                            </div>
+                                            <div class="owl-item cloned" style="width: 255px; margin-right: 20px;">
+                                                <div class="section-body flex">
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">Pengumuman 6</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">Pengumuman 7</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">Pengumuman 8</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">Pengumuman 9</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img">
+                                                            <i class="fas fa-bullhorn"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <a href="" class="section-item-timeline-title">Pengumuman 10</a>
+                                                            <div class="section-item-timeline-meta">
+                                                                <span><a href=""><i class="fas fa-download"></i> Unduh Berkas</a></span>
+                                                                <span class="float-right"><i class="far fa-clock"></i> 25/11/2019</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-dots disabled"></div>
+                                </div>
+                                <!--.owl-carousel-->
+                            </div>
+                            <!-- .container -->
+                        </section>
+
+                        <section class="agenda">
+                            <div class="container">
+                                <div class="section-title">
+                                    <h3>Agenda &amp; Kalender</h3>
+                                    <div id="agenda-nav" class=""><button type="button" role="presentation" class="owl-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button><button type="button" role="presentation" class="owl-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button></div>
+                                </div>
+                                <div class="owl-carousel owl-loaded owl-drag" id="agenda-slider">
+                                    <!-- .section-body -->
+                                    <!-- .section-body -->
+                                    <div class="owl-stage-outer">
+                                        <div class="owl-stage" style="transform: translate3d(-550px, 0px, 0px); transition: all 0s ease 0s; width: 1650px;">
+                                            <div class="owl-item cloned" style="width: 255px; margin-right: 20px;">
+                                                <div class="section-body flex">
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                </div>
+                                            </div>
+                                            <div class="owl-item cloned" style="width: 255px; margin-right: 20px;">
+                                                <div class="section-body flex">
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                </div>
+                                            </div>
+                                            <div class="owl-item active" style="width: 255px; margin-right: 20px;">
+                                                <div class="section-body flex">
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                </div>
+                                            </div>
+                                            <div class="owl-item" style="width: 255px; margin-right: 20px;">
+                                                <div class="section-body flex">
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                </div>
+                                            </div>
+                                            <div class="owl-item cloned" style="width: 255px; margin-right: 20px;">
+                                                <div class="section-body flex">
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                </div>
+                                            </div>
+                                            <div class="owl-item cloned" style="width: 255px; margin-right: 20px;">
+                                                <div class="section-body flex">
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                    <div class="section-item-timeline">
+                                                        <div class="section-item-timeline-img putih">
+                                                            <i class="fas fa-calendar-alt"></i>
+                                                        </div>
+                                                        <div class="section-item-timeline-body">
+                                                            <h5>15 Juli 2019</h5>
+                                                            <h4>Hari Pertama Masuk Tahun Pelajaran 2020/2021</h4>
+                                                        </div>
+                                                    </div>
+                                                    <!-- .section-item-timeline -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-dots disabled"></div>
+                                </div>
+                                <!--.owl-carousel-->
+                            </div>
+                            <!-- .container -->
+                        </section>
+                    </div>
+                    <!-- .sidebar -->
+                </div>
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+
+        <section id="galeri">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Galeri / Dokumentasi</h2>
+                </div>
+                <div class="section-body">
+                    <div id="slider-tools-3" class=""><button type="button" role="presentation" class="owl-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button><button type="button" role="presentation" class="owl-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button></div>
+                    <div class="owl-carousel owl-loaded owl-drag" id="galeri-slider">
+
+
+
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage" style="transform: translate3d(-710px, 0px, 0px); transition: all 0s ease 0s; width: 2485px;">
+                                <div class="owl-item cloned" style="width: 335px; margin-right: 20px;">
+                                    <div class="section-item-slider">
+                                        <a href=""><img class="foto-galeri" src="assets/img/galeri-2.jpeg" alt=""></a>
+                                        <div class="section-item-caption">
+                                            <a href="">
+                                                <h5>Album Ujian Nasional 2019</h5>
+                                            </a>
+                                            <h6>SMA N 404 Trainit, Wetanprogo</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned" style="width: 335px; margin-right: 20px;">
+                                    <div class="section-item-slider">
+                                        <div class="video-wrapper video-galeri">
+                                            <iframe src="https://youtu.be/jRaBwY63pP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                        </div>
+                                        <div class="section-item-caption">
+                                            <a href="">
+                                                <h5>Video Dokumentasi Reuni Akbar</h5>
+                                            </a>
+                                            <h6>SMK Pembagunan Jaya</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item active" style="width: 335px; margin-right: 20px;">
+                                    <div class="section-item-slider">
+                                        <a href=""><img class="foto-galeri" src="assets/img/galeri-1.jpg" alt=""></a>
+                                        <div class="section-item-caption">
+                                            <a href="">
+                                                <h5>Kegiatan Outbound 2019</h5>
+                                            </a>
+                                            <h6>Kaliboyong Camp, SMK Pembagunan Jaya</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item" style="width: 335px; margin-right: 20px;">
+                                    <div class="section-item-slider">
+                                        <div class="video-wrapper video-galeri">
+                                            <iframe src="https://youtu.be/6mIM-06cqko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                        </div>
+                                        <div class="section-item-caption">
+                                            <a href="">
+                                                <h5>Video Dokumentasi Reuni Akbar</h5>
+                                            </a>
+                                            <h6>GOR SMK Pembagunan Jaya</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item active" style="width: 335px; margin-right: 20px;">
+                                    <div class="section-item-slider">
+                                        <a href=""><img class="foto-galeri" src="assets/img/galeri-2.jpeg" alt=""></a>
+                                        <div class="section-item-caption">
+                                            <a href="">
+                                                <h5>Album Ujian Nasional 2019</h5>
+                                            </a>
+                                            <h6>SMK Pembagunan Jaya</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item" style="width: 335px; margin-right: 20px;">
+                                    <div class="section-item-slider">
+                                        <div class="video-wrapper video-galeri">
+                                            <iframe src="https://youtu.be/xReypeVT_Ps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                        </div>
+                                        <div class="section-item-caption">
+                                            <a href="">
+                                                <h5>Video Dokumentasi Reuni Akbar</h5>
+                                            </a>
+                                            <h6>GOR SMK Pembagunan Jaya</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned" style="width: 335px; margin-right: 20px;">
+                                    <div class="section-item-slider">
+                                        <a href=""><img class="foto-galeri" src="assets/img/galeri-1.jpg" alt=""></a>
+                                        <div class="section-item-caption">
+                                            <a href="">
+                                                <h5>Kegiatan Outbound 2019</h5>
+                                            </a>
+                                            <h6>Kaliboyong Camp, SMK Pembagunan Jaya</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned" style="width: 335px; margin-right: 20px;">
+                                    <div class="section-item-slider">
+                                        <a href=""><img class="foto-galeri" src="assets/img/nub/lsp.jpeg" alt=""></a>
+                                        <div class="section-item-caption">
+                                            <a href="">
+                                                <h5>Album Ujian Nasional 2019</h5>
+                                            </a>
+                                            <h6>SMK Pembagunan Jaya</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-dots disabled"></div>
+                    </div>
+                </div>
+                <div class="tombol-selengkapnya">
+                    <a href="list-post.html" class="btn btn-more">Lihat Galeri Lainnya</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <div id="scroll-to-top">
+        <a href="#topbar" style="display: none;"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <!-- Buka Footer-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <div class="footer-col">
+                        <div class="brand">
+                            <img src="/assets/img/logo-toga.png" alt="Logo">
+                            <h1>SMK Pembangunan Jaya-Yakapi</h1>
+                        </div>
+                        <p class="tentang">SMK Pembangunan Jaya-YAKAPI Jakarta adalah lembaga pendidikan menengah swasta di Jakarta melalui surat keputusan Menteri Pendidikan dan Kebudayaan No. Kep.015/I.I.A1/I/96, tertanggal 18 Juni 1996, dan telah terakreditasi ”B” SK.
+                            No.08/BAS Dikmen/II/2004, tanggal 26 Februari 2004.</p>
+                        <ul class="sosmed">
+                            <li><a href="https://id-id.facebook.com/smkpj.yakapi"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com/smk.pembangunan.jaya.yakapi/?hl=id"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCYsRJ93tJcIFwpP6XjLbAMw"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="footer-col">
+                        <h2>Kontak Kami</h2>
+                        <p class="alamat">JL. PALAPA RAYA No. 2, PS. Minggu, Kec. Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12520
+                        </p>
+                        <ul class="kontak">
+                            <li><i class="fas fa-phone"></i> Telp/Fax : 0234 - 56789 -123</li>
+                            <li><i class="fas fa-envelope"></i> Email : Yoga@team.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <div class="footer-col">
+                        <h2>INFORMASI</h2>
+                        <ul class="footer-nav">
+                            <li><a href="">Profil</a></li>
+                            <li><a href="">Visi dan Misi</a></li>
+                            <li><a href="">Struktur Organisasi</a></li>
+                            <li><a href="">Sumber Daya Manusia</a></li>
+                            <li><a href="">Pendaftaran PPDB 2020 <span>info</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- .container -->
+        <div class="footer-copyright">
+            <div class="container text-center">
+                <h6>copyright. © 2020 <a href="https://computerznow.my.id">Yoga Asnawi</a></h6>
+            </div>
+        </div>
+    </footer>
+    <!-- Tutup Footer-->
+    <script src="/assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+            jQuery(function() {
+                jQuery(this).bind("contextmenu", function(event) {
+                    event.preventDefault();
+                    // alert('Right click is forbidden!')
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
